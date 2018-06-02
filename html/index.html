@@ -26,18 +26,60 @@
 
 <!--价格选择-->
     <div id="xuan">
-        <button type="button" id="xin">
+        <button type="button" id="xin" class="butt2-2">
             <img src="../image/icon1.png" id="butt2_1">
             <span>13.14元</span>
         </button>
 
-        <button type="button" class="butt2">50元</button>
-        <button type="button" class="butt2" id="butt2_3">100元</button>
-        <button type="button" class="butt2" id="butt2_2">自定义</button>
+        <button type="button" class="butt2 butt2-1 butt2-2">50元</button>
+        <button type="button" class="butt2 butt2-2" id="butt2_3">100元</button>
+        <input type="tel" value="自定义" class="butt2 butt2-2" id="butt2_2" >
     </div>
+<!--价格选择结束-->
 
+<!--支付选择-->
+    <!--1-->
+    <div class="fu" flex="cross:center ">
 
+        <label for="zhif" class="lab">
+            <div flex="main:justify">
+                <div flex="main:center ">
+                    <img src="../image/icon2.png" class="icon2">
+                    <span class="icon2-1">微信支付</span>
+                </div>
+                <div>
+                    <input type="radio" name="xuan" id="zhif">
+                    <i class="zhif-1"></i>
+                </div>
+            </div>
+        </label>
+    </div>
+    <!--1结束-->
 
+    <!--2-->
+<div class="fu2" flex="cross:center ">
+    <label for="zhif2" class="lab">
+        <div flex="main:justify">
+            <div flex="main:center ">
+                <img src="../image/icon3.png" class="icon2">
+                <span class="icon2-1">微信支付</span>
+            </div>
+            <div>
+                <input type="radio" name="xuan" id="zhif2">
+                <i class="zhif-1"></i>
+            </div>
+        </div>
+    </label>
+</div>
+    <!--2结束-->
+    <!--支付结束-->
 
+    <!--确认支付按钮-->
+    <div flex="main:center ">
+        <button type="button" class="but">立即支付</button>
+    </div>
+    <!--结束-->
+
+<script src="../js/index.js"></script>
 </body>
 </html>
