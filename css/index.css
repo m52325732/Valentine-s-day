@@ -149,3 +149,189 @@
     transform: translateY(4px);
 
 }
+/*支付按钮结束*/
+
+/*弹窗1*/
+#tan{
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,.3);
+    position: absolute;
+    z-index: 10;
+    font-size: 0;
+    display: none;
+}
+#tan1{
+    background: white;
+    border-radius: 20px;
+    width: 6.5rem;
+    height: 8.54rem;
+    padding: .46rem .45rem .62rem .46rem;
+}
+.xian{
+    width: 1.96rem;
+    /*height: 0.02rem;*/
+
+}
+#t-font{
+   font-size: .32rem;
+    color: #f7699e;
+    margin: 0 .16rem ;
+}
+#tan1-2{
+    width: 100vw;
+    margin-bottom: .6rem;
+}
+#t-font2{
+    font-size: .26rem;
+    color: #f7699e;
+    list-style: none;
+    line-height: .48rem;
+}
+.t-but{
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    background: #fb9ac7;
+    font-size: .3rem;
+    width: 5.56rem;
+    height: .88rem;
+    color: white;
+    box-shadow: inset 0 -4px 0 rgba(223,120,172,1);
+    margin-top: .36rem;
+}
+/*弹窗1结束*/
+
+/*弹窗2*/
+#tan2{
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,.3);
+    position: absolute;
+    z-index: 10;
+    font-size: 0;
+    display: none;
+}
+#tan2-1{
+    background: white;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    width: 6.72rem;
+    height: 3.82rem;
+}
+#tan2-kuang{
+    border: 1px solid #ffe5f3;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    width: 5.38rem;
+    height: .88rem;
+    padding-left: .26rem;
+}
+.tan2-font{
+    font-size: .28rem;
+    color: #f0bfd9;
+}
+.tan2-font2{
+    font-size: .28rem;
+    color: #f7699e;
+    line-height: .36rem;
+    margin-top: .19rem;
+}
+.tan2-but{
+    width: 3.36rem;
+    height: 1.2rem;
+    font-size: .3rem;
+    color: white;
+}
+.tan2-but1{
+    background: #cbcbcb;
+    border-bottom-left-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+}
+.tan2-but2{
+    background: #fb9ac7;
+    border-bottom-right-radius: 10px;
+}
+#tan2-1-1{
+    margin: 0 .67rem .48rem .67rem;
+    padding-top: .37rem;
+}
+#tan2-3{
+    display: none;
+}
+/*弹窗2结束*/
+
+
+
+/*弹窗3*/
+#tan3{
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,.3);
+    position: absolute;
+    z-index: 10;
+    font-size: 0;
+    display: none;
+}
+#tan3-1{
+    background: white;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    width: 6.72rem;
+    height: 3.2rem;
+    padding-top: .68rem;
+}
+#tan3-font{
+    font-size: .28rem;
+    color: #f7699e;
+    padding: 0 .65rem 0 .7rem;
+    margin-bottom:.62rem;
+}
+
+
+
+
+
+
+
+
+/*第二页*/
+#ye2{
+    font-size: 0;
+}
+#banner2{
+    background-image:url("../image/banner2.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 4.92rem;
+
+}
+#y2{
+    background: #fef4f7;
+    width: 7.07rem;
+    height: 1.76rem;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    padding: .25rem .34rem .28rem .24rem;
+    margin-top: .3rem;
+}
+#y2-font{
+    font-size: .28rem;
+    color: #d16284;
+}
+
+#y2-1{
+    border: 2px dashed #ec78aa;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;;
+    width: 7.10rem;
+    height: .88rem;
+    margin: .65rem 0 .58rem 0;
+}
+#y2-1-font{
+    width: 4.82rem;
+}
+#y2-font2{
+    font-size: .26rem;
+    color: #d16284;
+}
