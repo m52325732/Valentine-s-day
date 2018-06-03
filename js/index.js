@@ -2,9 +2,62 @@ $(function(){
 
 document.body.addEventListener('touchstar',function () {
 
-}),
+});
+    $('#xuan>label').click(function(){
 
-$('.butt2-1').click(function () {
+        $(this).addClass('on').siblings().removeClass('on');
+        if($(this).hasClass('#laz')){
+            $(this).children('input').focus();
+        }
+
+    });
+$('#butt1').click(function(){
+    $("#tan").removeClass('d-none');
+
+});
+
+    $(".t-but").click(function(){
+        $("#tan").addClass('d-none');
+
+    });
+
+    $('.but').click(function(){
+        var aa= /^1[3|5|6|7|8|9][0-9]{9}$/;
+        var i= $('#hao').val();
+        if(aa.test(i)){
+            $("#tan2").removeClass('d-none');
+            //alert("请填写完整");
+            $("#ts1").addClass('d-none');
+
+
+        }else{
+            $("#ts1").removeClass('d-none');
+        }
+
+
+
+    });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*$('.butt2-1').click(function () {
     var but=$('.butt2-1')
 
     but.siblings('.butt2-2').css({background:"white"})
@@ -70,7 +123,7 @@ $('.butt2-1').click(function () {
 
 
 
-    })
+    })*/
 
 
 })

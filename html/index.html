@@ -14,10 +14,10 @@
 </head>
 <body>
 <!--弹窗1-->
-<div id="tan" flex="main:center cross:center">
+<div id="tan" flex="main:center cross:center" class="d-none">
     <div id="tan1">
 
-        <div  flex="dir:top cross:center main:center">
+        <div id="t-but1"  flex="dir:top cross:center main:center">
             <div id="tan1-2" flex="main:center cross:center">
                 <img src="../image/xian.png" class="xian">
                 <span id="t-font">活动规则</span>
@@ -38,15 +38,14 @@
 <!--弹窗1结束-->
 
 <!--弹窗2-->
-<div id="tan2" flex="main:center cross:center">
+<div id="tan2" flex="main:center cross:center" class="d-none">
     <div id="tan2-1">
         <div  id="tan2-1-1" flex="cross:center dir:top">
             <div id="tan2-kuang" flex="cross:center">
-                <table frame="tan2-3">
-                <input type="tel"id="tan2-3" class="tan2-font">
-                <span class="tan2-font">请输入您的手机号码</span>
-                </table>
+                <input type="tel" id="tan2-3" placeholder="请输入福建移动号码" maxlength="11" class="tan2-font">
+
             </div>
+
             <p class="tan2-font2">
                 获赠流量将通过该号码领取，受理结果将在完
                 成扣款后，以短信形式通知。
@@ -62,7 +61,7 @@
 <!--弹窗2结束-->
 
 <!--弹窗3开始-->
-<div id="tan3" flex="cross:center main:center">
+<div id="tan3" flex="cross:center main:center" class="d-none">
     <div id="tan3-1">
         <p id="tan3-font">您输入的手机号码与充值手机号码一致，无法
             获赠流量。继续充值吗？
@@ -87,27 +86,40 @@
 <!--banner结束-->
 
 <!--号码输入-->
-    <div id="font1" flex="cross:center">
-        <input type="tel" value="请输入福建移动号码">
+    <div id="font1" flex="cross:center main:justify">
+
+            <input type="tel" placeholder="请输入福建移动号码" maxlength="11" id="hao">
+        <div id="ts1" class="d-none">请正确填写电话号码</div>
+            <!--<span id="hao-sp">请输入福建移动号码</span>-->
     </div>
 <!--号码输入结束-->
 
 <!--价格选择-->
-    <div id="xuan">
-        <button type="button" id="xin" class="butt2-2">
-            <img src="../image/icon1.png" id="butt2_1">
-            <span>13.14元</span>
-        </button>
+    <div id="xuan" flex="main:justify">
+        <label class="on" id="la1" flex="cross:center main:center">
+                <img src="../image/icon1.png" id="xin">
+                13.14元
+        </label>
 
-        <button type="button" class="butt2 butt2-1 butt2-2">50元</button>
-        <button type="button" class="butt2 butt2-2" id="butt2_3">100元</button>
-        <input type="tel" value="自定义" class="butt2 butt2-2" id="butt2_2" >
+        <label flex="cross:center main:center">
+            50元
+        </label>
+
+        <label flex="cross:center main:center">
+            100元
+        </label>
+
+        <label id="laz"  flex="cross:center main:center">
+            <span id="zdy">自定义</span>
+            <input type="tel" id="money">
+
+        </label>
     </div>
 <!--价格选择结束-->
 
 <!--支付选择-->
     <!--1-->
-    <div class="fu" flex="cross:center ">
+    <div class="fu" flex="cross:center">
 
         <label for="zhif" class="lab">
             <div flex="main:justify">
@@ -130,10 +142,10 @@
         <div flex="main:justify">
             <div flex="main:center ">
                 <img src="../image/icon3.png" class="icon2">
-                <span class="icon2-1">微信支付</span>
+                <span class="icon2-1">银联支付</span>
             </div>
             <div>
-                <input type="radio" name="xuan" id="zhif2">
+                <input type="radio" name="xuan" id="zhif2" checked="true">
                 <i class="zhif-1"></i>
             </div>
         </div>
@@ -143,7 +155,7 @@
     <!--支付结束-->
 
     <!--确认支付按钮-->
-    <div flex="main:center ">
+    <div id="qr" flex="main:center ">
         <button type="button" class="but">立即支付</button>
     </div>
     <!--结束-->
