@@ -273,9 +273,9 @@
     border: 1px solid #ffe5f3;
     border-radius: 10px;
     -webkit-border-radius: 10px;
-    width: 75vw;
+    width: 70vw;
     height: .88rem;
-    padding-left: .26rem;
+    padding-left: 2vw;
 }
 .tan2-font{
     font-size: .28rem;
@@ -285,7 +285,7 @@
     font-size: .28rem;
     color: #f7699e;
     line-height: .36rem;
-    margin-top: .19rem;
+    margin-top: 2vh;
 }
 .tan2-but{
     width: 50vw;
@@ -304,13 +304,13 @@
     -webkit-border-bottom-right-radius: 20px;
 }
 #tan2-1-1{
-    height: 70%;
-    margin: 0 .67rem 0 .67rem;
-    padding-top: .37rem;
+    height: 100vh;
+    margin: 0 70vw;
+    /*padding-top: .37rem;*/
 }
 #tan2but{
-    width: 100%;
-    height: 30%;
+    width: 100vw;
+    height: 30vh;
     /*display: none;*/
 }
 /*弹窗2结束*/
@@ -336,15 +336,15 @@
     padding-top: 5%;
 }
 #tan3-font{
-    height: 50%;
+    height: 50vh;
     font-size: .28rem;
     color: #f7699e;
     padding: 0 .65rem 0 .7rem;
     /*margin-bottom:.62rem;*/
 }
 #tan3but{
-    width: 100%;
-    height: 50%;
+    width: 100vw;
+    height: 50vh;
 }
 .tan3-but{
     width: 50vw;
