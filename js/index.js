@@ -50,7 +50,8 @@ $('#butt1').click(function(){
             var aa= /^1[3|5|6|7|8|9][0-9]{9}$/;
             if(aa.test(tans2)){
                 if(tans===tans2){
-                    $('#tan3').removeClass('d-none')
+                    $('#tan3').removeClass('d-none');
+                    $('#tan2').addClass('d-none');
                 }else{
                     window.location.href="index3.html"
                 }

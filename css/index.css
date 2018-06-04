@@ -208,7 +208,7 @@
     border-radius: 20px;
     width: 90vw;
     height: 65vh;
-    padding: .46rem .45rem .62rem .46rem;
+    padding: .46rem .45rem 0 .46rem;
 }
 .xian{
     width: 1.96rem;
@@ -235,7 +235,7 @@
     -webkit-border-radius: 8px;
     background: #fb9ac7;
     font-size: .3rem;
-    width: 5.56rem;
+    width: 75vw;
     height: .88rem;
     color: white;
     box-shadow: inset 0 -4px 0 rgba(223,120,172,1);
@@ -264,14 +264,14 @@
     background: white;
     border-radius: 20px;
     -webkit-border-radius: 20px;
-    width: 6.72rem;
-    height: 3.82rem;
+    width: 90vw;
+    height: 30vh;
 }
 #tan2-kuang{
     border: 1px solid #ffe5f3;
     border-radius: 10px;
     -webkit-border-radius: 10px;
-    width: 5.38rem;
+    width: 75vw;
     height: .88rem;
     padding-left: .26rem;
 }
@@ -286,26 +286,29 @@
     margin-top: .19rem;
 }
 .tan2-but{
-    width: 3.36rem;
+    width: 50vw;
     height: 1.2rem;
     font-size: .3rem;
     color: white;
 }
 .tan2-but1{
     background: #cbcbcb;
-    border-bottom-left-radius: 10px;
-    -webkit-border-bottom-left-radius: 10px;
+    border-bottom-left-radius: 20px;
+    -webkit-border-bottom-left-radius: 20px;
 }
 .tan2-but2{
     background: #fb9ac7;
-    border-bottom-right-radius: 10px;
+    border-bottom-right-radius: 20px;
+    -webkit-border-bottom-right-radius: 20px;
 }
 #tan2-1-1{
-    margin: 0 .67rem .48rem .67rem;
+    height: 50%;
+    margin: 0 .67rem 0 .67rem;
     padding-top: .37rem;
 }
-#tan2-3{
-
+#tan2but{
+    width: 100%;
+    height: 50%;
     /*display: none;*/
 }
 /*弹窗2结束*/
@@ -326,17 +329,38 @@
     background: white;
     border-radius: 10px;
     -webkit-border-radius: 10px;
-    width: 6.72rem;
-    height: 3.2rem;
-    padding-top: .68rem;
+    width:90vw;
+    height: 25vh;
+    padding-top: 5%;
 }
 #tan3-font{
+    height: 50%;
     font-size: .28rem;
     color: #f7699e;
     padding: 0 .65rem 0 .7rem;
-    margin-bottom:.62rem;
+    /*margin-bottom:.62rem;*/
 }
-
+#tan3but{
+    width: 100%;
+    height: 50%;
+}
+.tan3-but{
+    width: 50vw;
+    height: 1.2rem;
+    font-size: .3rem;
+    color: white;
+    text-align: center;
+}
+.tan3-but1{
+    background: #cbcbcb;
+    border-bottom-left-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+}
+.tan3-but2{
+    background: #fb9ac7;
+    border-bottom-right-radius: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+}
 
 
 

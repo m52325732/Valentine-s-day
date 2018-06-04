@@ -31,6 +31,7 @@
                 <li>4、1G流量日包生效后有效期为24小时，内含流量在24小时内使用有效。超过期限（或使用完内含流量），套餐及内含流量同时失效；</li>
                 <li>5、旧版wap套餐取消后方可参与本活动。若客户为预销户状态、或随E行等状态异常客户，也无法参与本活动。</li>
             </ol>
+
             <button type="button" class="t-but">知道了</button>
         </div>
     </div>
@@ -39,19 +40,19 @@
 
 <!--弹窗2-->
 <div id="tan2" flex="main:center cross:center" class="d-none">
-    <div id="tan2-1">
-        <div  id="tan2-1-1" flex="cross:center dir:top">
-            <div id="tan2-kuang" flex="cross:center main:justify">
+    <div id="tan2-1" flex="dir:top cross:center">
+        <div  id="tan2-1-1" flex="cross:center main:center dir:top">
+            <label for="tan2-3" id="tan2-kuang" flex="cross:center main:justify">
                 <input type="tel" id="tan2-3" placeholder="请输入福建移动号码" maxlength="11" class="tan2-font">
                 <div id="ts1-2" class="d-none">请正确填写电话号码</div>
-            </div>
+            </label>
 
             <p class="tan2-font2">
                 获赠流量将通过该号码领取，受理结果将在完
                 成扣款后，以短信形式通知。
             </p>
         </div>
-        <div  id="tan2but">
+        <div  id="tan2but" flex="main:justify cross:bottom">
             <button type="button" class="tan2-but tan2-but1" id="tan2-but1">取消</button>
             <button type="button" class="tan2-but tan2-but2" id="tan2-but2">确定</button>
         </div>
@@ -62,13 +63,15 @@
 
 <!--弹窗3开始-->
 <div id="tan3" flex="cross:center main:center" class="d-none">
-    <div id="tan3-1">
-        <p id="tan3-font">您输入的手机号码与充值手机号码一致，无法
-            获赠流量。继续充值吗？
-        </p>
-        <div>
-            <button type="button" class="tan2-but tan2-but1" id="tan3-but1">取消</button>
-            <button type="button" class="tan2-but tan2-but2" id="tan3-but2">确定</button>
+    <div id="tan3-1" flex="cross:center dir:top main:center">
+        <div id="tan3-font"  flex="cross:center main:center">
+            <p flex="cross:center main:center">您输入的手机号码与充值手机号码一致，无法
+                获赠流量。继续充值吗？
+            </p>
+        </div>
+        <div id="tan3but" flex="main:justify cross:bottom">
+            <button type="button" class="tan3-but tan3-but1" id="tan3-but1">取消</button>
+            <button type="button" class="tan3-but tan3-but2" id="tan3-but2">确定</button>
         </div>
     </div>
 </div>
