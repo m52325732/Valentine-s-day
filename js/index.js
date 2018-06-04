@@ -3,6 +3,7 @@ $(function(){
 document.body.addEventListener('touchstar',function () {
 
 });
+// 按钮
     $('#xuan>label').click(function(){
 
         $(this).addClass('on').siblings().removeClass('on');
@@ -11,29 +12,64 @@ document.body.addEventListener('touchstar',function () {
         }
 
     });
+    // 第一弹窗
 $('#butt1').click(function(){
     $("#tan").removeClass('d-none');
 
 });
-
+// 弹窗关闭
     $(".t-but").click(function(){
         $("#tan").addClass('d-none');
 
     });
 
+    // 支付按钮
     $('.but').click(function(){
         var aa= /^1[3|5|6|7|8|9][0-9]{9}$/;
         var i= $('#hao').val();
         if(aa.test(i)){
             $("#tan2").removeClass('d-none');
-            //alert("请填写完整");
+
             $("#ts1").addClass('d-none');
 
 
         }else{
             $("#ts1").removeClass('d-none');
-        }
+        };
 
+    // 关闭第二弹窗
+        $('#tan2-but1').click(function () {
+            $("#tan2").addClass('d-none');
+            $('#tan2-3').val('')
+        });
+
+        // 确认第二弹窗
+        $('#tan2-but2').click(function () {
+            var tans=$('#hao').val();
+            var tans2= $('#tan2-3').val();
+            var aa= /^1[3|5|6|7|8|9][0-9]{9}$/;
+            if(aa.test(tans2)){
+                if(tans===tans2){
+                    $('#tan3').removeClass('d-none')
+                }else{
+                    window.location.href="index3.html"
+                }
+            }else{
+                $("#ts1-2").removeClass('d-none');
+
+            }
+
+        });
+
+        // 第三弹窗
+    $('#tan3-but1').click(function () {
+        $('#tan3').addClass('d-none');
+        $('#tan2').removeClass('d-none')
+    });
+
+    $('#tan3-but2').click(function () {
+        window.location.href="index2.html"
+    })
 
 
     });

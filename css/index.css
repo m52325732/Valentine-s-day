@@ -28,7 +28,7 @@
 }
 #font1>#ts1{
     color: red;
-    font-size: .28rem;
+    font-size: .24rem;
 }
 
 
@@ -385,7 +385,10 @@
     font-size: .26rem;
     color: #d16284;
 }
-
+#ts1-2{
+    color: red;
+    font-size: .24rem;
+}
 
 /*第二页结束*/
 
