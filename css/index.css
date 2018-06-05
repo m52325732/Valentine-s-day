@@ -1,18 +1,19 @@
 
 
 #banner{
-    background-image: url("../image/banner.jpg");
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 40vh;
+    /*background-image: url("../image/banner.jpg");*/
+    /*background-position: center center;*/
+    /*background-size: cover;*/
+    /*background-repeat: no-repeat;*/
+    /*height: 40vh;*/
+    width: 100vw;
 }
 
 
 #butt1{
     position: absolute;
     top: .26rem;
-    left: 6.12rem;
+    right: 0;
     width: 1.38rem;
     height: .46rem;
 }
@@ -211,7 +212,7 @@
     background: white;
     border-radius: 20px;
     width: 90vw;
-    height: 70vh;
+    /*height: 70vh;*/
     /*padding: .46rem .45rem 0 .46rem;*/
 }
 .xian{
@@ -226,6 +227,7 @@
 }
 #tan1-2{
     width: 80vw;
+
     /*margin-bottom: .6rem;*/
 }
 #t-font2{
@@ -253,6 +255,7 @@
     transform: translateY(4px);}
 #t-but1{
     overflow: visible;!important;
+    padding: .47rem 0 .62rem 0;
 }
 /*弹窗1结束*/
 
@@ -271,7 +274,7 @@
     border-radius: 20px;
     -webkit-border-radius: 20px;
     width: 90vw;
-    height: 30vh;
+    /*height: 30vh;*/
 }
 #tan2-kuang{
     border: 1px solid #ffe5f3;
@@ -289,14 +292,15 @@
     font-size: .28rem;
     color: #f7699e;
     line-height: .36rem;
-    margin-top: 2vh;
+    margin: .19rem 0 .48rem 0;
 }
 .tan2-but{
-    width: 50vw;
+    width: 50%;
     height: 1.2rem;
     font-size: .3rem;
     color: white;
     text-align: center;
+    padding: 0;
 }
 .tan2-but1{
     background: #cbcbcb;
@@ -309,13 +313,13 @@
     -webkit-border-bottom-right-radius: 20px;
 }
 #tan2-1-1{
-    height: 70vh;
+    /*height: 70vh;*/
     margin: 0 70vw;
     padding-top: .37rem;
 }
 #tan2but{
-    width: 100vw;
-    height: 30vh;
+    width: 100%;
+    /*height: 30vh;*/
     /*display: none;*/
 }
 /*弹窗2结束*/
@@ -337,22 +341,24 @@
     border-radius: 20px;
     -webkit-border-radius: 20px;
     width:90vw;
-    height: 25vh;
-    padding-top: 5%;
+    /*height: 25vh;*/
+    /*padding-top: 5%;*/
 }
 #tan3-font{
-    height: 50vh;
+    /*height: 50vh;*/
     font-size: .28rem;
     color: #f7699e;
     padding: 0 .65rem 0 .7rem;
+    margin: .67rem 0 .66rem 0;
     /*margin-bottom:.62rem;*/
 }
 #tan3but{
-    width: 100vw;
-    height: 50vh;
+    width: 100%;
+    /*height: 50vh;*/
+
 }
 .tan3-but{
-    width: 50vw;
+    width: 50%;
     height: 1.2rem;
     font-size: .3rem;
     color: white;
@@ -380,16 +386,16 @@
     font-size: 0;
 }
 #banner2{
-    background-image:url("../image/banner2.jpg");
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 40vh;
-
+    /*background-image:url("../image/banner2.jpg");*/
+    /*background-position: center center;*/
+    /*background-size: cover;*/
+    /*background-repeat: no-repeat;*/
+    /*height: 40vh;*/
+    width: 100vw;
 }
 #y2{
     background: #fef4f7;
-    width: 7.07rem;
+    width: 90vw;
     height: 1.76rem;
     border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -405,7 +411,7 @@
     border: 2px dashed #ec78aa;
     border-radius: 8px;
     -webkit-border-radius: 8px;;
-    width: 7.10rem;
+    width: 90vw;
     height: .88rem;
     margin: .65rem 0 .58rem 0;
 }
@@ -429,11 +435,12 @@
 
 /*第三页*/
 #y3-ban{
-    background-image: url("../image/banner.jpg");
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 40vh;
+    /*background-image: url("../image/banner.jpg");*/
+    /*background-position: center center;*/
+    /*background-size: cover;*/
+    /*background-repeat: no-repeat;*/
+    width: 100vw;
+    /*height: 40vh;*/
     font-size: 0;
 }
 #y3-ban2{
@@ -443,7 +450,9 @@
     background-size: cover;
     background-repeat: no-repeat;
     height: 4.81rem;
+    width: 6.69rem;
 }
+
 #er{
     height: 3.34rem;
     width: 3.34rem;
@@ -460,8 +469,9 @@
 
 }
 #y3-xian{
+
     width: 100vw;
-    margin-bottom: .41rem;
+    margin:.28rem 0 .41rem 0;
 }
 
 .d-none{
